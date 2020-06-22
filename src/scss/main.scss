@@ -3,14 +3,17 @@
 @import "_variables";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-
+@import "modules/hero.scss";
 body {
   font-family: 'Poppins', sans-serif;
   background: #ffffff;
   color: $big-stone;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
   min-height: 100vh;
   border: 16px solid $big-stone;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: antialiased;
+	font-smoothing: antialiased;
 }
