@@ -1,13 +1,16 @@
 @import "~normalize.css";
 
 @import "_variables";
-@import "modules/hello.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 
 body {
-  background: $wtf;
-  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
+  color: $big-stone;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  border: 16px solid $big-stone;
 }
