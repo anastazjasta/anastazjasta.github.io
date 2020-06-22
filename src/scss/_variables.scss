@@ -2,3 +2,11 @@ $azure-radiance: #0593FB;
 $big-stone: #171F3F;
 $ghost: #CBD2D9;
 $gray: #52606D;
+$green: #06C847;
+$violet: #D605F8;
+$blue: #2251CC;
+
+@mixin section-width {
+    max-width: 1184px;
+    margin: 0 auto;
+}
