@@ -1,6 +1,7 @@
 .hero {
-  @include section-width;
-  margin-bottom: 0;
+  max-width: $section-width;
+  margin: 0 auto;
+
   padding: 112px 0 184px 0;
    &__image {
     width: 100px;
