@@ -1,0 +1,60 @@
+.contact {
+  background: $big-stone;
+  color: #fff;
+  padding: 8rem 0;
+  &__description {
+    max-width: 580px;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+    margin:0;
+    padding: 1rem 0 1.625rem 0;
+  }
+  &__mail {
+    font-weight: 500;
+font-size: 1.25rem;
+line-height: 2rem;
+color: $azure-radiance;
+text-decoration: none;
+padding: 0;
+padding-bottom: 8px;
+border-bottom: 2px solid $azure-radiance;
+border-radius: 1px;
+}
+  &__title {
+      margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 44px;
+    line-height: 2.27rem;
+    margin: 0;
+    &::before {
+      content: "";
+      display: block;
+      width: 80px;
+      height: 4px;
+      background: $azure-radiance;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+  }
+}
+}
+
+.sm {
+    list-style-type: none;
+    margin:0;
+    padding: 0 0 3rem 0;
+    &__item {
+        display: inline-flex;
+        align-items: center;
+        padding-right: 1.75rem;
+
+    }
+    &__icon {
+        width: 1.75rem;
+        height: 1.75rem;
+        }
+
+
+}
